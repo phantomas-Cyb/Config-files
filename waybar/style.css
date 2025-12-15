@@ -100,8 +100,7 @@ button:hover {
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: rgba(38, 166, 91, 0.8);
+    color: rgba(13, 229, 103, 0.8);
 }
 
 @keyframes blink {
@@ -135,7 +134,6 @@ label:focus {
 }
 
 #network.disconnected {
-    font-size: 12px;
     background-color: rgba(255, 85, 85, 0.5);
     padding-right: 8px;
 }
